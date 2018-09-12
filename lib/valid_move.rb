@@ -1,9 +1,9 @@
 # code your #valid_move? method here
 def valid_move(board, number)
   if poistion_taken
-    return true 
-  else
     return false 
+  else
+    return true 
   end
 end
 
